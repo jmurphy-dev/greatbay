@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS great_BayDB;
+
+CREATE DATABASE great_BayDB;
+
+USE great_BayDB;
+
+CREATE TABLE auction (
+    id INT NOT NULL AUTO_INCREMENT,
+    listing VARCHAR(45) NULL,
+    bid DECIMAL(10, 2) NULL,
+    PRIMARY KEY (id)
+);
+
